@@ -1376,3 +1376,11 @@ button[type=submit],
 .no-js table#wp-calendar {
   display: block;
 }
+
+
+/* =Custom CSS
+----------------------------------------------- */
+
+.navbar > .container .navbar-brand {
+  font-family: 'Rock Salt', cursive;
+}
