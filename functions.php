@@ -276,3 +276,13 @@ require get_template_directory() . '/inc/jetpack.php';
  * Load custom nav walker
  */
 require get_template_directory() . '/inc/navwalker.php';
+
+/**
+ * Redirect non-admins to the homepage after logging into the site.
+ *
+ * @since   1.0
+ */
+function soi_login_redirect( $redirect_to, $request, $user  ) {
+  return ( is_array( $user->roles ) && in_array( 'administrator', $user->roles ) ) ? admin_url() : site_url();
+} // end soi_login_redirect
+add_filter( 'login_redirect', 'soi_login_redirect', 10, 3 );
