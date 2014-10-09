@@ -1,1 +1,1 @@
-Wordpress Theme (custom Sparkling)
+Wordpress Theme - decoraure - (custom Sparkling)
