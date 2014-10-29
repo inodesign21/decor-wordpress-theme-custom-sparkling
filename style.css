@@ -890,6 +890,7 @@ button:hover {
 }
 .nav.navbar-nav {
   float: right;
+  margin-top:25px;
 }
 @media (max-width: 767px) {
   .nav.navbar-nav {
@@ -1381,6 +1382,9 @@ button[type=submit],
 /* =Custom CSS
 ----------------------------------------------- */
 
+
+/* =logo e menu
+----------------------------------------------- */
 .navbar > .container .navbar-brand {
   font-family: 'Rock Salt', cursive;
 font-size:2em;
@@ -1405,4 +1409,55 @@ color:rgb(255, 220, 220);
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
 color:rgb(255, 220, 220);
-}
+}
+
+
+/* =home destaques e titulo
+----------------------------------------------- */
+.destacados {
+    padding: 20px 0;
+	text-align: center;
+}
+.destacados > div > div {
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	transition: 0.2s;
+}
+.destacados > div:hover > div {
+	margin-top: -10px;
+	border: 1px solid rgb(200, 200, 200);
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+	background: rgba(200, 200, 200, 0.1);
+	transition: 0.5s;
+}
+
+.home-titulo {
+font-size:2em; 
+font-family:rock salt, sans serif; 
+text-align:center; 
+color:#DA4453;
+font-weight: bold;
+}
+
+
+/* =Custom CSS
+----------------------------------------------- */
+
+/* =img icon
+----------------------------------------------- */
+.img-icon {margin: 10px 0 10px 0;}
+
+/* #logo
+----------------------------------------------- */
+#logo {
+display: inline;
+float: right;
+}
+
+/* site-name
+----------------------------------------------- */
+.site-name {
+float: right;
+margin-top: 25px;
+}
